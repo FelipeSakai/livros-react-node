@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { livros } from './dadosPesquisa'
 
 const PesquisaContainer = styled.section`
-    background-image: linear-gradient(90deg, #0f9630ff 35%, #2ec220ff 165%);
+        background-image: linear-gradient(90deg, #002F52 35%, #326589);
         color: #FFF;
         text-align: center;
         padding: 85px 0;
@@ -24,7 +24,7 @@ const Subtitulo = styled.h3`
         margin-bottom: 40px;
 `
 const Resultado = styled.div`
- display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
