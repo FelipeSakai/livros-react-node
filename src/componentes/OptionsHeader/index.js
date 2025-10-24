@@ -19,8 +19,10 @@ display: flex;
 function OptionsHeader() {
     return (
         <Options>
-            {textOptions.map((texto) => (
-                <Option><p>{texto}</p></Option>
+            {textOptions.map((texto, index) => (
+                <Option key={index}>
+                    <p>{texto}</p>
+                </Option>
             ))}
         </Options>
     )
